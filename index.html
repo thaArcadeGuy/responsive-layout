@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Conquering Responsive Layouts</title>
+    </head>
+    <body>
+        <header>
+            <div class="container row">
+                <button class="nav-toggle" aria-label="open navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <a class="logo" href="#"><img src="img/logo.svg" alt="CRL logo" ></a>
+                <nav class="nav">
+                    <ul class="nav__list nav__list--primary">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                    </ul>
+                    <ul class="nav__list nav__list--secondary">    
+                        <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link nav__link--btn">Sign Up</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="container row">
+                <h1 class="hero--title">Responsive layouts <span  class="color-change">don't have to be a struggle</span></h1>
+                <div class="hero--content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="button">I want to learn</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-one">
+            <div class="container row">
+                <div class="col">
+                    <h2>Mobile-first</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <div class="col">
+                    <h2>Efficient</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <div class="col">
+                    <h2>Done right</h2>
+                    <p>Lorem ipsum dolor sit amet,  consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+            </div>
+        </section>
+
+        <main class="main container row">
+            <section class="primary--section">
+                <h2 class="section--title">It doesn’t have to be so hard</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <img src="img/primary-img.jpg" alt="UX design sketches">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </section>
+            <aside class="sidebar">
+                <div class="block col">
+                    <h2 class="sidebar--title">Break it down</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="block col">
+                    <h2 class="sidebar--title">Work your way up</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="block col">
+                    <h2 class="sidebar--title">Break it down</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </aside>
+        </main>
+
+        <footer>
+            <div class="container">
+                <h2 class="main-footer--title">just scratching the surface</h2>
+                <div class="row">
+                    <div class="col special">
+                        <h2 class="footer--title">About our company</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+
+                    <div class="col">
+                        <h2 class="footer--title">Getting around</h2>
+                        <ul class="footer__list">
+                            <li class="footer__list--item"><a href="#" class="footer__link">Home</a></li>
+                            <li class="footer__list--item"><a href="#" class="footer__link">About</a></li>
+                            <li class="footer__list--item"><a href="#" class="footer__link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h2 class="footer--title">Other things</h2>
+                        <ul class="footer__list">
+                            <li class="footer__list--item"><a href="#" class="footer__link">Lorem ipsum</a></li>
+                            <li class="footer__list--item"><a href="#" class="footer__link">dolor</a></li>
+                            <li class="footer__list--item"><a href="#" class="footer__link">sit amet</a></li>
+                            <li class="footer__list--item"><a href="#" class="footer__link">consectetur</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h2 class="footer--title">And more</h2>
+                        <ul class="footer__list">
+                            <li class="footer__list--item"><a href="#" class="footer__link">Lorem ipsum</a></li>
+                            <li class="footer__list--item"><a href="#" class="footer__link">dolor</a></li>
+                            <li class="footer__list--item"><a href="#" class="footer__link">sit amet</a></li>
+                            <li class="footer__list--item"><a href="#" class="footer__link">consectetur</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="js/index.js"></script>
+    </body> 
+</html>
